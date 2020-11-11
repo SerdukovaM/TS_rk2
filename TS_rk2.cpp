@@ -1,6 +1,6 @@
-//Условие: 15 вариант формула: sinxexp(-y)^2/(1+x^2+y^2)
-//Вероятность мутации: 25% 
-//Точек 6
+//Г“Г±Г«Г®ГўГЁГҐ: 15 ГўГ Г°ГЁГ Г­ГІ ГґГ®Г°Г¬ГіГ«Г : sinxexp(-y)^2/(1+x^2+y^2)
+//Г‚ГҐГ°Г®ГїГІГ­Г®Г±ГІГј Г¬ГіГІГ Г¶ГЁГЁ: 25% 
+//Г’Г®Г·ГҐГЄ 6
 
 #include <iostream>
 #include <vector>
@@ -45,7 +45,7 @@ int main() {
     mutant *= (static_cast<double>((rand() % 100) - 49) / 100) + 0.5;
     cout << mutant << endl;
 
-    for (size_t i = 0; i < 1000; i++) {
+    for (size_t i = 0; i < 10; i++) {
         cout << endl;
         if (i == 0) {
             for (size_t i = 0; i < 6; i++) {
