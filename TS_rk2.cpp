@@ -45,7 +45,7 @@ int main() {
     mutant *= (static_cast<double>((rand() % 100) - 49) / 100) + 0.5;
     cout << mutant << endl;
 
-    for (size_t i = 0; i < 10; i++) {
+    for (size_t i = 0; i < 100; i++) {
         cout << endl;
         if (i == 0) {
             for (size_t i = 0; i < 6; i++) {
